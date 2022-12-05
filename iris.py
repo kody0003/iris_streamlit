@@ -29,8 +29,8 @@ clf.fit(x, y)
 # サイドバーの入力
 st.sidebar.header('Input features')
 
-sepalValue = st.slidebar.slider('sepal length (cm)', min_value=0.0, max_value=10.0, step=0.1)
-petalValue = st.slidebar.slider('petal lenght (cm)', min_value=0.0, max_value=10.0, step=0.1)
+sepalValue = st.sidebar.slider('sepal length (cm)', min_value=0.0, max_value=10.0, step=0.1)
+petalValue = st.sidebar.slider('petal lenght (cm)', min_value=0.0, max_value=10.0, step=0.1)
 
 # メインパネル
 st.title('Iris Classifier')
